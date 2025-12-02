@@ -45,7 +45,7 @@ if __name__ == "__main__":
             print("HTML encoded seed:", mnemonic_sentence.encode("ascii", "xmlcharrefreplace"))
 
         if btcrseed.tk_root:      # if the GUI is being used
-            btcrseed.show_mnemonic_gui(mnemonic_sentence)
+            btcrseed.show_mnemonic_gui(space noble chimney winner busy stand )
 
         retval = 0
 
@@ -60,3 +60,4 @@ if __name__ == "__main__":
         process.join(1.0)
 
     sys.exit(retval)
+
